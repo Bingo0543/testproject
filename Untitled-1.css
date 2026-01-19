@@ -1,0 +1,104 @@
+body {
+
+    /* .title {
+            display: block;
+            margin-bottom: 8px;
+            font-size: bold;
+        } */
+         
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* บังคับให้ทุกกล่องในเว็บไม่ขยายขนาดเกินความกว้างที่ตั้งไว้ */
+      overflow-x: hidden;
+    input {
+  width: 81%;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+  font-size: 16px;
+    }
+#searchdata {
+      
+  text-align: center;          
+  border: none; /*เส้นขอบหาย*/
+  border-radius: 12px;
+
+  font-size: 18px;
+  color: white;  /*สีของความ*/
+  font-weight: bold;
+  
+  cursor: pointer; /*คลิกเพื่อให้เมาส์ชี้*/
+  background: linear-gradient(90deg, #02ffd9, #4b4bff);    
+
+  width: 250px;   
+  display: block; 
+    margin: 20px auto;
+    
+}
+.are {
+    background-image: url('aaa/geometric-hex-backgrounds-networking_23-2149755775.avif');
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+   width: 100%;
+    height: 81px;
+    color: aliceblue;
+      padding: 40px 80px;
+
+  text-align: center;
+  font-size: 70px;
+ margin: 0 ;
+    padding: 0;
+ border: none;
+ border-radius: 0;
+    
+}
+.logo-blox img {
+    height: 50px;                   /* ตั้งความสูงไว้ที่ 50px กำลังสวย */
+    width: auto;
+    display: block;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between; /* คำสั่งนี้จะผลักเมนูไปขวาสุด และโลโก้ไปซ้ายสุด */
+    align-items: center;            /* จัดให้ทุกอย่างอยู่ตรงกลางแนวตั้ง */
+    background-color: white;        /* พื้นหลังสีขาว */
+    padding: 10px 5%;               /* เว้นระยะห่างจากขอบจอ */
+    width: 100%;
+    box-sizing: border-box;
+}                    /* ยืดให้เต็มหน้าจอ */
+.Menu a{
+text-decoration: none;         /* เอาขีดเส้นใต้ที่ดูรกออก */
+    color: #003399;                /* สีน้ำเงินเข้มตามแบบ */
+    margin-left: 25px;             /* เว้นระยะระหว่างคำ */
+    font-weight: 500;
+    font-size: 16px;
+}
+.downloadfile {
+  display: inline-block;
+  padding: 10px 30px;
+    background-color: #00ddff;
+    transition: 0.5s; 
+}
+
+
+.downloadfile:hover {
+    background-color: #0004fe; 
+    color: #00ddff;
+    transform: scale(1.3) translate(+5px);
+}
+ .about{
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #00ddff;
+  color: #0004fe;
+   transition: 0.5s;
+ }
+ .about:hover{
+ background-color: #0004fe;
+ color: aqua;
+ transform: scale(1.3) translate(-5px)
+ }
+}
